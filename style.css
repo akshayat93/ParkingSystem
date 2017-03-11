@@ -1,0 +1,167 @@
+#body
+{
+	margin:0px;
+    height:100%;
+	background: rgba(229, 210, 210, 1);
+}
+#box
+{
+	height:100%;
+	width:100%;
+	
+}
+#header
+{
+	height: 3rem;
+    margin-bottom: 1%;
+	width:100%;
+}
+.user
+{
+	text-align: center;
+    width: 48%;
+    margin-right: 0px;
+    position: absolute;
+    /* height: 3rem; */
+    padding: 1%;
+    border-right: none;
+    border: 2px solid black;
+}
+.admin
+{
+	float: right;
+    width: 48%;
+    text-align: center;
+    border: 2px solid black;
+    padding: 1%;
+    position: absolute;
+    margin-left: 50%;
+}
+#detail
+{
+	height:80%;
+}
+#user 
+{
+	text-decoration: initial;
+	text-align: center;
+    width: 50%;
+    margin-right: 0px;
+    position: absolute;
+    /* height: 3rem; */
+    padding: 1%;
+    border-right: none;
+	margin-left: 0.04%;
+	background: #985aa2;
+    color: white;
+    font-weight: bold;
+	border: 3px outset black; 
+}
+#admin 
+{
+    text-decoration: inherit;
+	float: right;
+    width: 48%;
+    text-align: center;
+    padding: 1%;
+    position: absolute;
+    margin-left: 50.8%;
+	background: #0000cc;
+    color: white;
+    font-weight: bold;
+    
+	border: 3px outset black;
+	
+}
+#admin :click
+{
+	background: red;
+}
+#userDetail
+{
+	margin: 4%;
+    border: 2px solid black;
+    padding: 3%;
+}
+#theForm
+{
+	font-size: x-large;
+}
+#rname
+{
+	float: right;
+    font-size: medium;
+    padding:1%;
+}
+#colour
+{
+	 padding:1%;
+    font-size: medium;
+	float: right;
+   
+}
+#submit
+{
+	float: right;
+    /* margin-right: 50%; */
+    font-size: smaller;
+    color: white;
+    background: #00b8e6;
+    border: none;
+    padding: .5%;
+}
+#adminDetail
+{
+	margin: 4%;
+    border: 2px solid black;
+	margin-top: 2%;
+   
+}
+#remove
+{
+	
+    margin-left: 45%;
+    font-size: larger;
+    color: white;
+    background: #00b8e6;
+    border: none;
+    padding: .5%;
+	
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+	margin-bottom: 1%;
+	
+}
+#table
+{
+padding-bottom:1%;
+}
+td, th {
+    border: 1px solid #7d3131;
+    text-align: left;
+    padding: 8px;
+	
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+#search
+{
+	margin-top: 2%;
+    margin-left: 4%;
+	margin-right: 5%;
+}
+#myInput
+{
+	padding:.5%;
+	width:100%;
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+	font-size: 16px;
+	border: 1px solid #ddd;
+	
+}

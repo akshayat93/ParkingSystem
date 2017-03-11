@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Automated Parking</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="style.css"></link>
+		<script src="jquery-3.1.1.min.js"></script>
+		<script src="backbone.js"></script>
+	</head>
+	
+	<body id="body">
+		<div id="box">
+			<div id="header">
+				<!-- <div class="user"><a href="#" id="user" >User</a></div>
+				<div class="admin"><a href="#" id="admin" >Admin</a></div> -->
+				<div id="user">User</div>
+				<div id="admin">Admin</div>
+			</div>
+			<div id="detail">
+				<div id="userDetail">
+					<form id="theForm" action="#" method="get" >
+						Registration No:	<input id="rname" type="text" placeholder="KA-01-AB-9999" name="rname"><br></br>
+						Car Colour:
+						<select id="colour">
+							  <option value="Black">BLACK</option>
+							  <option value="White">WHITE</option>
+							  <option value="Red">RED</option>
+							  <option value="Blue">BLUE</option>
+						</select><br></br>
+						<input type="submit" id="submit" value="Park me!!"><br>
+					</form>
+				</div>
+				<div id="search"><input type="text" id="myInput"  placeholder="Search here..." ></div>
+				<div id="adminDetail">
+					<div id="table">
+						<table id ="tableid">
+						<!-- <tr>
+							<th></th>
+							<th>Slot no.</th>
+							<th>Registration No</th>
+							<th>Colour</th>
+						</tr>	 -->					
+						</table>
+						<input type="submit" id="remove" value="Delete">
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
